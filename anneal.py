@@ -24,7 +24,7 @@ def plot_all(best):
     plt.draw()
 
 def generate_nghbr(current):
-    #changes random 2 value of the current
+    #changes random 2 values of the current
     new = current[:]
     index1 = random.randint(0, len(cities_list)-1)
     index2 = random.randint(0, len(cities_list)-1)
